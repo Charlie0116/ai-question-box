@@ -1,0 +1,16 @@
+<h1>チャット</h1>
+
+<%= form_with model: @chat, url: chats_path, local: true do |form| %>
+  <%= form.label :user_message, "あなたのメッセージ：" %>
+  <%= form.text_field :user_message %>
+  <%= form.submit "送信" %>
+<% end %>
+
+<hr>
+
+<h2>履歴</h2>
+<% @chats.each do |chat| %>
+  <p><strong>あなた：</strong> <%= chat.user_message %></p>
+  <p><strong>AI：</strong> <%= chat.ai_response || "（未実装）" %></p>
+  <hr>
+<% end %>
