@@ -45,3 +45,4 @@ ai-chat-app-key.pem
 /config/credentials/production.key
 config/credentials/
 config/credentials/
+/config/credentials.yml.enc
