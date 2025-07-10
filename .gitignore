@@ -40,4 +40,6 @@
 
 # Ignore VSCode config files
 .vscode/
+
 ai-chat-app-key.pem
+/config/credentials/production.key
