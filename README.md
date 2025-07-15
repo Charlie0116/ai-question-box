@@ -5,23 +5,13 @@
 ---
 
 ## 概要
+AIによる質問応答を行うチャットボットアプリです。
+Ruby on Rails + OpenAI API + Docker を使用しています。
 
-AIチャットボットアプリ（Rails + OpenAI + Docker）
-
----
-
-## セットアップ手順（作成中）
-
-- 必要な環境：
-  - Docker / Docker Compose
-  - OpenAI API Key
-
----
-
-## 使用方法・構成（追記予定）
-
-- `.env.sample` をコピーして `.env` を作成
-- `docker-compose up` で起動予定
+- Railsで構築されたWebアプリケーション
+- OpenAI APIを利用した質問応答機能
+- Docker + Docker Composeによる簡易な開発環境
+- `.env` 管理による安全なシークレット設定
 
 ---
 
@@ -31,5 +21,14 @@ AIチャットボットアプリ（Rails + OpenAI + Docker）
 - `password` などの機密情報は含まれていません
 
 ---
+---
 
-> 詳細は今後追記予定です。
+## 実装予定・強化中（In Progress）
+
+- [ ] ユーザーの質問履歴保存機能（ActiveRecord）
+- [ ] OpenAI APIレスポンスの自動タグ分類
+- [ ] RSpecによるテスト追加
+- [ ] GitHub ActionsによるCI導入（rubocop / rspec）
+- [ ] 本番環境向けデプロイ構成（RenderまたはFly.io予定）
+
+> ※ 現在、ポートフォリオ強化のため順次追加中です。
