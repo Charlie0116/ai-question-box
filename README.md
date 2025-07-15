@@ -1,24 +1,35 @@
-# README
+# AI Question Box
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+※ このREADMEは現在編集中です。
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 概要
 
-* System dependencies
+AIチャットボットアプリ（Rails + OpenAI + Docker）
 
-* Configuration
+---
 
-* Database creation
+## セットアップ手順（作成中）
 
-* Database initialization
+- 必要な環境：
+  - Docker / Docker Compose
+  - OpenAI API Key
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+## 使用方法・構成（追記予定）
 
-* Deployment instructions
+- `.env.sample` をコピーして `.env` を作成
+- `docker-compose up` で起動予定
 
-* ...
+---
+
+## 注意
+
+- `.env` は `.gitignore` 済み
+- `password` などの機密情報は含まれていません
+
+---
+
+> 詳細は今後追記予定です。
